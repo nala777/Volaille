@@ -36,7 +36,7 @@ public class Poulet extends Volaille{
     }
 
     /**
-     * This function returns the weight of the chicken at the time of slaughter
+     * La fonction return le poids minimal du poulet
      * 
      * @return The value of the variable poidAbbatagePoulet.
      */
