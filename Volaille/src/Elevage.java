@@ -72,6 +72,8 @@ public class Elevage extends Volaille {
      * 
      * @param c Canard
      * @param p Poulet
+     *
+     * Affiche seulement les volailles qui peuvent être abbatues
      */
     public void afficherVolailleAbbatage(Canard c, Poulet p) {
         for (int i = 0; i < listeVolailles.size(); i++) {

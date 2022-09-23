@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 /**
- * 
+ * Class defenissant une volaille
  */
 public class Volaille {
 
@@ -10,7 +10,13 @@ public class Volaille {
     double poids;
     char type;
 
-    // A constructor.
+    /**
+     *
+     * @param int numeroMat
+     * @param int age
+     * @param double poids
+     * @param char type
+     */
     public Volaille(int numeroMat, int age, double poids ,char type) {
         this.numeroMat = numeroMat;
         this.age = age;

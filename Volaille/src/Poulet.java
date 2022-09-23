@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 /**
- * Class définissant un poulet avec son abat
+ * Class définissant un poulet
  */
 public class Poulet extends Volaille{
 

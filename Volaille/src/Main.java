@@ -32,11 +32,11 @@ public class Main {
 
 
 
-        Terminal.ecrireString(s"Prix du jour du poulet : ");
+        Terminal.ecrireString("Prix du jour du poulet : ");
         double prixPoulet = Terminal.lireDouble();
 
         
-        Terminal.ecrireString(s"Prix du jour du canard : ");
+        Terminal.ecrireString("Prix du jour du canard : ");
         double prixCanard = Terminal.lireDouble();
 
 
