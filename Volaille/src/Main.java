@@ -31,8 +31,17 @@ public class Main {
         Terminal.sautDeLigne();
 
 
-        Poulet p1 = new Poulet(8.25,8);
-        Canard c1 = new Canard(11.25,9);
+
+        Terminal.ecrireString(s"Prix du jour du poulet : ");
+        double prixPoulet = Terminal.lireDouble();
+
+        
+        Terminal.ecrireString(s"Prix du jour du canard : ");
+        double prixCanard = Terminal.lireDouble();
+
+
+        Poulet p1 = new Poulet(prixPoulet,8);
+        Canard c1 = new Canard(prixCanard,9);
 
         Terminal.sautDeLigne();
         e1.calculPrixAbbatage(c1,p1);
