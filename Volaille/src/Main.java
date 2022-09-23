@@ -2,9 +2,13 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        
+        
+       // Creating an array list of Volaille and an array list of Double.
         ArrayList<Volaille> listeVolailles = new ArrayList<>();
         ArrayList<Double> listePrix = new ArrayList<>();
 
+       // Creating 4 new objects of the class Volaille.
         Volaille v1 = new Volaille(125,21,1.7,'P');
         Volaille v2 = new Volaille(1276,21,2.7,'C');
         Volaille v3 = new Volaille(4,21,1.7,'P');
